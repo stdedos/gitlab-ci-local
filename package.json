@@ -68,6 +68,7 @@
     "jest-when": "3.x.x",
     "nodemon": "^3.1.1",
     "pkg": "5.x.x",
+    "strip-ansi": "^7.1.0",
     "ts-jest": "29.x.x",
     "ts-node": "10.x.x",
     "typescript": "5.x.x"

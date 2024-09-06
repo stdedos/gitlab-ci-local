@@ -3,7 +3,7 @@ import {handler} from "../../../src/handler";
 import {initSpawnSpy} from "../../mocks/utils.mock";
 import {WhenStatics} from "../../mocks/when-statics";
 import assert, {AssertionError} from "assert";
-import {stripAnsi} from "../../utils";
+import stripAnsi from "strip-ansi";
 
 
 beforeAll(() => {
