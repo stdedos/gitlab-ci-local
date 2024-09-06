@@ -1,12 +1,12 @@
-import {WriteStreamsMock} from "../../../src/write-streams";
-import {handler} from "../../../src/handler";
-import {initBashSpy, initSpawnSpy} from "../../mocks/utils.mock";
-import {WhenStatics} from "../../mocks/when-statics";
+import {WriteStreamsMock} from "../../../src/write-streams.js";
+import {handler} from "../../../src/handler.js";
+import {initBashSpy, initSpawnSpy} from "../../mocks/utils.mock.js";
+import {WhenStatics} from "../../mocks/when-statics.js";
 import {
     GitlabRunnerCPUsPresetValue,
     GitlabRunnerMemoryPresetValue,
     GitlabRunnerPresetValues,
-} from "../../../src/gitlab-preset";
+} from "../../../src/gitlab-preset.js";
 
 beforeAll(() => {
     initSpawnSpy([...WhenStatics.all, {
